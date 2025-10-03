@@ -1,8 +1,15 @@
 # PolyScript (alpha stage)
 
-This Product is currently in development and is not ready for production. Don't Use. Contribute.<br>
+### Current Version: 0.0.1
 
-**Do Not Use** (yet).
+> ⚠️ Warning - This product is currently in development and is not ready for production.
+
+> ❌ DO NOT USE
+
+## Attribution
+
+Polyscript is an open-source project backed by Adevex
+, a developer experience company committed to empowering developers with better tools.
 
 ## One Script to Rule them All
 
@@ -19,7 +26,20 @@ PolyScript aims to unite developers from across all the various languages into a
 If you love your language, support it, by supporting PolyScript.
 And if you haven't found a language you love... now you have!
 
-### Quick Links
+### Core Philosophies
+
+- Don't repeat yourself.
+  <br>
+- Write less. Deliver more.
+  <br>
+- Build once, test, and deliver.
+  <br>
+- Cross-Platform Code with Native Performance.
+  <br>
+- Let this be the death of platform-specific development.
+  <br>
+
+## Quick Links
 
 - [GitHub](https://www.github.com/polyscript)
 
@@ -40,23 +60,6 @@ And if you haven't found a language you love... now you have!
 - Contributor onboarding [templates](https://docs.polyscript.org/templates), [documentation](https://docs.polyscript.org), and [video tutorials](https://learn.polyscript.org).
 
   - ([Mentorship Program](https://www.polyscript.org/mentor) coming soon)
-
-### Core Philosophies
-
-- Don't repeat yourself.
-  <br>
-- Write less. Deliver more.
-  <br>
-- Build once, test, and deliver.
-  <br>
-- Cross-Platform Code with Native Performance.
-  <br>
-- Let this be the death of platform-specific development.
-  <br>
-
-### Future Features
-
-- Optimize code for LLM's and generative AI prompting to enable superior output results and expidited innovation.
 
 ### 🎯 TARGET AUDIENCE
 
@@ -108,3 +111,29 @@ component Button {
 | **PolyServe**  | Local dev server with hot reload                      |
 | **PolyBridge** | FFI layer to interop with native libraries            |
 | **PolyStudio** | Optional full IDE (Electron or native-based)          |
+
+### Public Presence Structure
+
+| Platform                         | Purpose                                |
+| -------------------------------- | -------------------------------------- |
+| **polyscript.org**               | Main site, homepage, brand             |
+| **docs.polyscript.org**          | Full documentation                     |
+| **play.polyscript.org**          | Online playground / sandbox            |
+| **github.com/adevex/polyscript** | Core code, issues, releases            |
+| **discord.gg/polyscript**        | Developer community & support          |
+| **X/Twitter (@polyscriptlang)**  | Announcements, community news          |
+| **YouTube/Twitch**               | Dev logs, tutorials, livestream coding |
+
+### Strategic Initiatives
+
+| Phase            | Milestone                                                      |
+| ---------------- | -------------------------------------------------------------- |
+| **Alpha (v0.1)** | Compile to JS/TS, basic runtime, playground online             |
+| **Beta (v0.5)**  | Swift/Kotlin targets, PolyKit alpha, docs live                 |
+| **v1.0**         | Full IDE support, plugin API, governance structure launch      |
+| **v1.1+**        | Backers/sponsorship, enterprise rollouts, Synthosys OS support |
+
+### Future Features
+
+- Shorthand notation ( significant indentation and line-breaks )
+- Optimize code for LLM's and generative AI prompting to enable superior output results and expidited innovation.
