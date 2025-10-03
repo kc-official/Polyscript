@@ -1,5 +1,5 @@
 /* polyscriptc.c
-   Prototype Polyscript compiler (minimal but practical)
+   Prototype Polyscript compiler
    Build: gcc -std=c99 -O2 -o polyscriptc polyscriptc.c
 */
 #include <stdio.h>
