@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Expert tree trimming and removal services in San Diego, CA. We are licensed, insured, and dedicated to enhancing your landscape's beauty and safety. Get a free estimate today."
+    />
+    <meta
+      name="keywords"
+      content="tree trimming, tree removal, San Diego, arborist, stump grinding, tree service, licensed, insured"
+    />
+    <title>San Diego Tree Experts | Professional Tree Trimming & Removal</title>
+
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Inter Font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        overflow-x: hidden;
+      }
+
+      /* Smooth scroll for anchor links */
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Utility class for fade-in animation on scroll */
+      .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+      }
+
+      .fade-in.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 5px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 5px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+
+      /* Keyframe for button bounce effect on hover */
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-5px);
+        }
+      }
+
+      .cta-button:hover {
+        animation: bounce 0.5s ease-in-out;
+      }
+
+      /* Simple animation for carousel to make it more visually appealing */
+      @keyframes slide {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(calc(-100% * var(--items-per-slide)));
+        }
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-50 text-gray-800 antialiased">
+    <!-- Header & Navigation -->
+    <header
+      class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md shadow-sm"
+    >
+      <nav
+        class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between"
+      >
+        <!-- Logo/Company Name -->
+        <a
+          href="#hero"
+          class="flex items-center text-2xl font-bold text-green-700"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-8 h-8 mr-2 text-green-600"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12.985 2.113A2.25 2.25 0 0 1 15 4.194v15.612a2.25 2.25 0 0 1-2.015 2.081l-4.204-.618a2.25 2.25 0 0 1-1.99-2.298V5.011a2.25 2.25 0 0 1 2.015-2.298l4.204.618ZM12 4.194a.75.75 0 0 0-.671.465L9.671 7.56a.75.75 0 0 0-.007.828l1.657 2.455a.75.75 0 0 0 1.258-.847l-1.657-2.455a.75.75 0 0 0-.671-.465Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          San Diego Tree Pros
+        </a>
+
+        <!-- Navigation Links -->
+        <ul class="hidden md:flex space-x-6 font-semibold">
+          <li>
+            <a href="#services" class="hover:text-green-600 transition-colors"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="#about" class="hover:text-green-600 transition-colors"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a
+              href="#testimonials"
+              class="hover:text-green-600 transition-colors"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a href="#gallery" class="hover:text-green-600 transition-colors"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="hover:text-green-600 transition-colors"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <!-- CTA Button -->
+        <a
+          href="#contact"
+          class="hidden md:block bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-6 rounded-full shadow-lg transition-all cta-button"
+        >
+          Get a Free Estimate
+        </a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section
+        id="hero"
+        class="relative bg-gradient-to-br from-green-50 to-green-100 min-h-screen flex items-center justify-center pt-24 pb-12 overflow-hidden"
+      >
+        <!-- Background pattern -->
+        <div
+          class="absolute inset-0 z-0 opacity-20"
+          style="
+            background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath d=\'M52.535 15.362a.5.5 0 0 0-.486-.486L.073 24.225a.5.5 0 0 0 .618.618l51.986-9.845a.5.5 0 0 0 .486-.486Z\' fill=\'#333\' fill-opacity=\'0.2\' /%3E%3C/svg%3E');
+            background-size: 60px 60px;
+          "
+        ></div>
+
+        <div
+          class="relative container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center z-10"
+        >
+          <h1
+            class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-gray-900 drop-shadow-sm mb-4"
+          >
+            Transform Your San Diego Landscape
+          </h1>
+          <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mb-8">
+            Expert tree trimming, removal, and care to enhance your property's
+            beauty and safety. Licensed, insured, and ready to serve you.
+          </p>
+          <a
+            href="#contact"
+            class="bg-green-600 hover:bg-green-700 text-white font-bold text-lg py-4 px-10 rounded-full shadow-xl transition-all hover:scale-105 cta-button"
+          >
+            Get a Free Estimate Today
+          </a>
+
+          <div
+            class="mt-8 flex flex-wrap justify-center items-center gap-6 text-gray-500"
+          >
+            <span class="flex items-center text-sm font-medium">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-5 h-5 mr-2 text-green-500"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              Licensed & Insured
+            </span>
+            <span class="flex items-center text-sm font-medium">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-5 h-5 mr-2 text-green-500"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.788 3.21c.44-.949 1.706-.949 2.146 0l2.676 5.706a1.5 1.5 0 0 0 1.155.882l6.236.885c1.028.146 1.447 1.378.732 2.04l-4.636 4.44c-.337.323-.52.766-.411 1.22l1.096 6.012c.19.991-.837 1.755-1.745 1.22l-5.604-3.141a1.5 1.5 0 0 0-1.42 0L5.343 20.76c-.908.535-1.935-.229-1.745-1.22l1.096-6.012c.109-.454-.074-.897-.411-1.22L1.082 11.85c-.715-.662-.296-1.894.732-2.04l6.236-.885a1.5 1.5 0 0 0 1.155-.882l2.676-5.706Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              5-Star Local Service
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="py-16 sm:py-24 bg-white fade-in">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <header class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+              Our Comprehensive Tree Services
+            </h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+              We provide a full range of tree care solutions to keep your
+              property beautiful, safe, and healthy.
+            </p>
+          </header>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service Card 1 -->
+            <article
+              class="bg-gray-100 p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-10 h-10 text-green-600 mb-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">
+                Tree Trimming & Pruning
+              </h3>
+              <p class="text-gray-600">
+                Our experts meticulously prune your trees to promote healthy
+                growth, improve their appearance, and prevent potential hazards.
+              </p>
+            </article>
+
+            <!-- Service Card 2 -->
+            <article
+              class="bg-gray-100 p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-10 h-10 text-green-600 mb-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">
+                Safe Tree Removal
+              </h3>
+              <p class="text-gray-600">
+                Whether a tree is diseased, damaged, or simply in the way, we
+                perform safe and efficient removals with minimal impact on your
+                property.
+              </p>
+            </article>
+
+            <!-- Service Card 3 -->
+            <article
+              class="bg-gray-100 p-8 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 transform hover:-translate-y-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-10 h-10 text-green-600 mb-4"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <h3 class="text-xl font-bold text-gray-900 mb-2">
+                Stump Grinding
+              </h3>
+              <p class="text-gray-600">
+                Complete the tree removal process by grinding the stump below
+                ground level, making the area ready for new landscaping.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us / Value Proposition Section -->
+      <section id="about" class="py-16 sm:py-24 bg-gray-50 fade-in">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+              <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">
+                Committed to Quality and Safety
+              </h2>
+              <p class="text-lg text-gray-600">
+                At San Diego Tree Pros, we're not just about cutting trees—we're
+                about providing peace of mind. Our team is fully licensed and
+                insured, ensuring that every project, big or small, is handled
+                with the highest standards of safety and professionalism. We
+                believe in honest work and transparent pricing, with no hidden
+                fees.
+              </p>
+              <ul class="space-y-4 text-lg text-gray-700">
+                <li class="flex items-start">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6 text-green-600 mr-3 mt-1 shrink-0"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span>Free, No-Obligation Estimates</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6 text-green-600 mr-3 mt-1 shrink-0"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span>Licensed and Fully Insured for Your Protection</span>
+                </li>
+                <li class="flex items-start">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6 text-green-600 mr-3 mt-1 shrink-0"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <span>Local San Diego Tree Care Experts</span>
+                </li>
+              </ul>
+              <a
+                href="#contact"
+                class="inline-block mt-6 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all cta-button"
+              >
+                Request Your Free Estimate
+              </a>
+            </div>
+
+            <div
+              class="w-full h-80 sm:h-96 md:h-full rounded-2xl shadow-xl overflow-hidden relative group"
+            >
+              <!-- Placeholder Image -->
+              <img
+                src="https://placehold.co/800x600/65a30d/ffffff?text=Professional+Service"
+                alt="Professional arborist trimming a tree"
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                onerror="this.onerror=null;this.src='https://placehold.co/800x600/65a30d/ffffff?text=Professional+Service';"
+              />
+              <div class="absolute inset-0 bg-green-900 opacity-20"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="py-16 sm:py-24 bg-gray-100 fade-in">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+            What Our Clients Say
+          </h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
+            Don't just take our word for it. Here's what our satisfied customers
+            in San Diego have to say about our service.
+          </p>
+
+          <!-- Testimonial Cards (can be made a carousel with JS) -->
+          <div id="testimonial-carousel" class="grid lg:grid-cols-3 gap-8">
+            <blockquote
+              class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-600"
+            >
+              <p class="text-lg text-gray-700 font-medium mb-4">
+                "The team was professional, on time, and did an incredible job
+                with our overgrown palm trees. Our yard looks so much better and
+                safer now. Highly recommend!"
+              </p>
+              <cite class="font-bold text-gray-900 not-italic"
+                >— Jessica M., La Jolla</cite
+              >
+            </blockquote>
+            <blockquote
+              class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-600"
+            >
+              <p class="text-lg text-gray-700 font-medium mb-4">
+                "We had a large, dead oak that was a major concern. San Diego
+                Tree Pros removed it safely and efficiently, and the cleanup was
+                perfect. A fantastic service."
+              </p>
+              <cite class="font-bold text-gray-900 not-italic"
+                >— Robert P., Del Mar</cite
+              >
+            </blockquote>
+            <blockquote
+              class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-600"
+            >
+              <p class="text-lg text-gray-700 font-medium mb-4">
+                "They provided a quick and honest estimate. The work was done
+                exactly as promised, and they left our property spotless. A
+                pleasure to work with from start to finish."
+              </p>
+              <cite class="font-bold text-gray-900 not-italic"
+                >— Carlos G., Poway</cite
+              >
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="py-16 sm:py-24 bg-gray-50 fade-in">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
+            Our Work in Action
+          </h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
+            See the difference professional care makes. Browse our gallery of
+            recent projects in the San Diego area.
+          </p>
+
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <figure
+              class="relative overflow-hidden rounded-2xl shadow-lg group"
+            >
+              <img
+                src="https://placehold.co/600x400/16a34a/ffffff?text=Before+Trimming"
+                alt="Before tree trimming"
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <figcaption
+                class="absolute inset-0 bg-gray-900 bg-opacity-40 flex items-center justify-center text-white text-xl font-bold opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              >
+                Before & After
+              </figcaption>
+            </figure>
+            <figure
+              class="relative overflow-hidden rounded-2xl shadow-lg group"
+            >
+              <img
+                src="https://placehold.co/600x400/22c55e/ffffff?text=After+Trimming"
+                alt="After tree trimming"
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <figcaption
+                class="absolute inset-0 bg-gray-900 bg-opacity-40 flex items-center justify-center text-white text-xl font-bold opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              >
+                Perfectly Pruned
+              </figcaption>
+            </figure>
+            <figure
+              class="relative overflow-hidden rounded-2xl shadow-lg group"
+            >
+              <img
+                src="https://placehold.co/600x400/4ade80/ffffff?text=Stump+Removal"
+                alt="Stump removal process"
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+              <figcaption
+                class="absolute inset-0 bg-gray-900 bg-opacity-40 flex items-center justify-center text-white text-xl font-bold opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+              >
+                Stump Ground to Dust
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section
+        id="contact"
+        class="py-16 sm:py-24 bg-green-600 text-white fade-in"
+      >
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">
+            Ready to Enhance Your Property?
+          </h2>
+          <p class="text-lg mb-8">
+            Get in touch today for a free, no-obligation estimate. We'll assess
+            your needs and provide a clear, fair quote.
+          </p>
+
+          <form
+            id="contact-form"
+            class="max-w-xl mx-auto bg-white p-8 sm:p-10 rounded-2xl shadow-xl text-left text-gray-800 space-y-6"
+          >
+            <div>
+              <label for="name" class="block text-sm font-semibold mb-2"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="w-full p-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-green-600 transition-colors"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-semibold mb-2"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="w-full p-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-green-600 transition-colors"
+              />
+            </div>
+            <div>
+              <label for="phone" class="block text-sm font-semibold mb-2"
+                >Phone Number</label
+              >
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="w-full p-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-green-600 transition-colors"
+              />
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-semibold mb-2"
+                >Tell Us About Your Project</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+                class="w-full p-3 rounded-lg border-2 border-gray-300 focus:outline-none focus:border-green-600 transition-colors"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-green-600 hover:bg-green-700 text-white font-bold text-lg py-4 rounded-full shadow-lg transition-all cta-button"
+            >
+              Send My Free Estimate Request
+            </button>
+            <div
+              id="form-message"
+              role="alert"
+              aria-live="polite"
+              class="mt-4 text-center font-bold"
+            ></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
+          <!-- Company Info -->
+          <div class="space-y-4">
+            <h4 class="text-xl font-bold text-green-500">
+              San Diego Tree Pros
+            </h4>
+            <p class="text-gray-400">
+              Professional tree care services in San Diego, CA. Your trusted
+              partner for a beautiful and safe landscape.
+            </p>
+          </div>
+          <!-- Quick Links -->
+          <div class="space-y-4">
+            <h4 class="text-xl font-bold text-green-500">Quick Links</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a
+                  href="#services"
+                  class="hover:text-green-500 transition-colors"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="hover:text-green-500 transition-colors"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#testimonials"
+                  class="hover:text-green-500 transition-colors"
+                  >Testimonials</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="hover:text-green-500 transition-colors"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Contact Info -->
+          <div class="space-y-4">
+            <h4 class="text-xl font-bold text-green-500">Contact Us</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a
+                  href="tel:555-555-5555"
+                  class="hover:text-green-500 transition-colors"
+                >
+                  (555) 555-5555
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:info@sdtree.com"
+                  class="hover:text-green-500 transition-colors"
+                >
+                  info@sdtree.com
+                </a>
+              </li>
+              <li>San Diego, CA</li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="mt-12 pt-8 border-t border-gray-700 text-center text-gray-400"
+        >
+          <p>
+            &copy; <span id="current-year"></span> San Diego Tree Pros. All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Set current year in the footer
+        const currentYear = new Date().getFullYear();
+        document.getElementById("current-year").textContent = currentYear;
+
+        // Smooth scrolling for navigation links
+        const navLinks = document.querySelectorAll('nav a[href^="#"]');
+        navLinks.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href");
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+              targetElement.scrollIntoView({ behavior: "smooth" });
+            }
+          });
+        });
+
+        // Form submission handler (simulated)
+        const contactForm = document.getElementById("contact-form");
+        const formMessage = document.getElementById("form-message");
+
+        contactForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Simulate form submission
+          formMessage.textContent = "Sending your request...";
+          formMessage.classList.remove("text-red-600", "text-green-600");
+          formMessage.classList.add("text-gray-600");
+
+          setTimeout(() => {
+            // Simulate success
+            formMessage.textContent =
+              "Thank you! Your request has been sent successfully. We will be in touch shortly.";
+            formMessage.classList.remove("text-gray-600");
+            formMessage.classList.add("text-green-600");
+            contactForm.reset();
+          }, 1500);
+        });
+
+        // Intersection Observer for fade-in effect
+        const faders = document.querySelectorAll(".fade-in");
+        const appearOptions = {
+          threshold: 0.2, // Trigger when 20% of the element is visible
+          rootMargin: "0px 0px -50px 0px", // Start a bit before the bottom of the viewport
+        };
+
+        const appearOnScroll = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) {
+              return;
+            }
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          });
+        }, appearOptions);
+
+        faders.forEach((fader) => {
+          appearOnScroll.observe(fader);
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+footer.bg-gray-900.text-white.py-12:
+  div.container.mx-auto.px-4.sm:px-6.lg:px-8:
+    div.grid.md:grid-cols-3.gap-8.text-center.md:text-left:
+
+      # Company Info
+      div.space-y-4:
+        h4.text-xl.font-bold.text-green-500: "San Diego Tree Pros"
+        p.text-gray-400:
+          "Professional tree care services in San Diego, CA. Your trusted partner for a beautiful and safe landscape."
+
+      # Quick Links
+      div.space-y-4:
+        h4.text-xl.font-bold.text-green-500: "Quick Links"
+        ul.space-y-2.text-gray-400:
+          li: a.hover:text-green-500.transition-colors href:"#services": "Services"
+          li: a.hover:text-green-500.transition-colors href:"#about": "About Us"
+          li: a.hover:text-green-500.transition-colors href:"#testimonials": "Testimonials"
+          li: a.hover:text-green-500.transition-colors href:"#contact": "Contact"
+
+      # Contact Info
+      div.space-y-4:
+        h4.text-xl.font-bold.text-green-500: "Contact Us"
+        ul.space-y-2.text-gray-400:
+          li: a.hover:text-green-500.transition-colors href:"tel:555-555-5555": "(555) 555-5555"
+          li: a.hover:text-green-500.transition-colors href:"mailto:info@sdtree.com": "info@sdtree.com"
+          li: "San Diego, CA"
+
+    div.mt-12.pt-8.border-t.border-gray-700.text-center.text-gray-400:
+      p:
+        "© "
+        span#current-year
+        " San Diego Tree Pros. All rights reserved."
