@@ -1,4 +1,4 @@
-# PolyScript (alpha stage)
+# PolyScript (Pre-Alpha Stage)
 
 ### Current Version: 0.0.1
 
